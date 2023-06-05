@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+  <style>
+    body
+    {
+        background:url(bg/white-minimalist-21.jpg);
+        background-size: cover;
+       font-family: montserrat;
+    }
+    .centerr
+    {
+        text-align: center;
+    }
+    form
+    {
+        outline: none;
+    }
+    .card
+    {
+        position: relative;
+        left:480px;
+
+    }
+    .btn
+    {
+        transition: 0.3s;
+        font-weight: bold;
+    }
+    .btn:hover
+    {
+        letter-spacing: 2px;
+
+    }
+    .logo
+    {
+        position: absolute;
+        top:150px;
+        left: -80px;
+        height:400px;
+        width: 1050px;
+    }
+   .outline
+   {
+    outline: none;
+   }
+    
+  </style>
+  <header>
+    <img src="bg/fb.png" class="logo" alt="">
+  </header>
+  <body class="d-flex justify-content-center align-items-center vh-100 ">
+    
+    <div class="myclass card w-25 shadow-lg bg-white"style="--bs-bg-opacity: .5">
+        <div class="card-body">
+         <p class="h1 text-center text-primary fw-bold">Sign Up</p>   
+         <h3 class="text-center mb-4"><span style="padding-bottom: 5px;
+            border-bottom: 3px solid black;">Join our community!</h3>
+         <form>
+            <label>First Name</label>
+            <input class="outline form-control mt-2 mb-2 "type="text">
+            <label>Last Name</label>
+            <input class="outline form-control mt-2 mb-2"type="text">
+            <label>Email</label>
+            <input class="outline form-control mt-2 mb-2"type="email">
+            <label>Date of Birth</label>
+            <input class="outline form-control mt-2 mb-2"type="date">
+            <label>Phone Number</label>
+            <input class="outline form-control mt-2 mb-3"type="tel">
+         </form>
+         <div class="centerr"><button class="btn btn-primary text-center w-50">JOIN NOW!</button></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>

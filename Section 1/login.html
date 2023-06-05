@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <title>Login</title>
+    <style>
+
+        *
+        {
+            font-family: Montserrat;
+        }
+        .mycard
+        {
+            
+            width:30%;
+            border-radius: 10px;
+            /*x-offset y-offset blue size color*/
+            box-shadow: 2px 3px 5px 3px rgba(0, 0, 0, 0.475);
+            padding: 30px;
+            box-sizing: border-box;
+        }
+        body
+        {
+           display:flex;
+            justify-content: center;
+            height: 100vh;
+            margin:0;
+            align-items: center;
+            background-image: url("5586989.jpg");
+            background-size:cover ;
+            backdrop-filter:blur(5px);
+        }
+        .myinput
+        {
+            display:block;
+            width:100%;
+            box-sizing: border-box;
+            
+            margin-bottom:20px;
+            padding :10px 20px;
+            border:none;
+            border-bottom: 2px solid black;
+            background-color:#e4e4e4;
+            
+        }
+        .mybtn
+        {
+            
+            width:50%;
+          
+            background-color: rgba(245, 177, 30);
+            padding:10px 5px;
+            color:black;
+            margin-top:20px;
+            border:none;
+            border-radius:25px;
+            font-weight: bold;
+            cursor: pointer;
+            text-align: center;
+            font-weight:bold;
+            transition-duration:0.5s ;
+
+
+        }
+        .mybtn:hover
+        {
+            transform: scale(1.1)translateY(10px);
+            box-shadow:0 -10px 10px -5px rgba(0, 0, 0, 0.475);
+            letter-spacing: 3px;
+
+        }
+        .brand
+        {
+            font-size:50px;
+            font-weight:bold;
+            letter-spacing: 4px;
+            text-align: center;
+            background-color: rgba(245, 177, 30);
+            border-radius: 25px;
+            padding:13px;
+        }
+        .text
+        {
+            text-align: center;
+        }
+        form
+        {
+            margin-top:30px;
+        }
+        .dem
+        {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="mycard">
+        <p class="brand">Brand Logo</p>
+        <h2 class="text">Member Login</h2>
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, iure!</p>
+        <form>
+            <label for="">Email Address</label>
+            <input class="myinput" type="email">
+            <label for="">Password</label>
+            <input class="myinput" type="password">
+            <div class="dem"><button class="mybtn">Submit</button></div>
+        </form>
+    </div>
+</body>
+</html>

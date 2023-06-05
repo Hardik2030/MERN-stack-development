@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <title>Document</title>
+</head>
+    <style>
+        *
+        {
+            font-family: montserrat;
+        }
+        body
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Montserrat;
+            background-image:url('bg/bg.webp');
+            background-size: cover;
+            backdrop-filter: blur(3px);
+        }
+        .mycard
+        {
+
+            background-color: rgba(43, 0, 255, 0.733);
+            
+            color:white;
+            
+            width:28%;
+            border-radius:20px;
+            box-shadow:9px 9px 20px 3px rgba(98, 0, 255, 0.475);
+            margin-top: 0px;
+            padding:20px;
+            box-sizing: border-box;
+      
+        }
+        .myinput
+        {
+            outline: none;
+            border: none;
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 10px;
+            padding-left:0px;
+            margin-bottom:23px;
+            background-color: transparent;
+            border-bottom: 2px solid orange;
+            font-size:medium;
+            color:white;
+            
+            
+        }
+       
+        #heading
+        {
+            margin-top:0px;
+            text-align: center;
+            font-weight: bold;
+            color: orange; 
+        }
+        h1
+        {
+            position: absolute;
+            left:50px;
+            top:-15px;
+            font-size: 80px;
+            color: white;
+            
+        }
+        p
+        {
+            text-align: center;
+            color:white;
+            padding-bottom:20px;
+        }
+        .mybtn
+        {
+           width: 50%;
+           color: orange;
+          
+           border: 2px solid orange;
+           border-radius: 10px;
+           position:relative;
+           top:20px;
+           padding: 7px;
+          
+           font-size: 16px;
+           background-color: white;
+           cursor:pointer;
+           margin-bottom: 30px;
+           transition-duration: 0.5s;
+           font-weight: bolder;
+          
+        }
+        .mybtn:hover
+        {
+            background-color: orange;
+            color:white;
+            letter-spacing: 4px;
+            border:2px solid white;
+        }
+        .submit
+        {
+            text-align: center;
+        }
+  
+    </style>
+
+<body>
+    <h1>Brand</h1>
+    <div class="mycard">
+        <h2 id="heading"><span style="padding-bottom: 5px;
+            border-bottom: 1.6px solid white;">Register Now!</h2>
+        <p>Register yourself and be a part of us!</p>
+        <form>
+            <label for="">First Name</label>
+            <input class="myinput"type="text">
+            <label for="">Last Name</label>
+            <input class="myinput"type="text">
+            <label for="">Date of birth</label>
+            <input class="myinput"type="date">
+            <label for="">Email</label>
+            <input class="myinput" type="email">
+            <label for="">Password</label>
+            <input class="myinput" type="password">
+            <div class="submit"><button class="mybtn">SUBMIT</button></div>
+        </form>
+    </div>
+
+</body>
+</html>
